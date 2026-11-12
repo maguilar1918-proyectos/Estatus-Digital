@@ -87,7 +87,7 @@
     { nombre: "Inocua", marca: "Perú", viejo: "INOCUA PERU S.A.C.", rubro: "Consultora de inocuidad alimentaria", plan: "Landing Estándar", mc: "#5eead4", mbg: "#051110",
       mini: "● HACCP · BRCGS · BPM", titulo: "Implementa HACCP con un equipo que conoce tu planta", sub: "Diagnóstico, implementación y auditoría interna.", cta: "Agendar diagnóstico",
       desc: "De una página sin mensaje claro a una landing con servicios, casos y botón de WhatsApp." },
-    { nombre: "Andina", marca: "QHSE", viejo: "ANDINA QHSE CONSULTORES", rubro: "Consultora QHSE", plan: "Web Premium con IA", mc: "#c8ff4d", mbg: "#08090a",
+    { nombre: "Andina", marca: "QHSE", viejo: "ANDINA QHSE CONSULTORES", rubro: "Consultora QHSE", plan: "Web Premium con IA", mc: "#f59e0b", mbg: "#0b101c",
       mini: "● ISO 9001 · 14001 · 45001", titulo: "Certifica tu planta sin detener tu operación", sub: "Calculadora con IA de plazos y alcance.", cta: "Calcular mi proyecto",
       desc: "Web con calculadora de alcance y asistente que deja los contactos listos para el equipo comercial." },
     { nombre: "Lab", marca: "Ambiental", viejo: "LABORATORIO AMBIENTAL DEL SUR", rubro: "Laboratorio de monitoreo ambiental", plan: "Web Corporativa", mc: "#8ab4ff", mbg: "#070a12",
