@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+
+# PENDIENTE: reemplazar por el dominio definitivo
+Sitemap: https://estatusdigital.pe/sitemap.xml

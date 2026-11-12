@@ -1,0 +1,13 @@
+{
+  "name": "estatus-digital",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Landing de Estatus Digital con asistente y diagnóstico con IA (Gemini)",
+  "scripts": {
+    "dev": "node dev-server.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

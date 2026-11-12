@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="es-PE">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de Privacidad | Estatus Digital</title>
+<meta name="description" content="Cómo Estatus Digital trata los datos personales que recibe a través de su sitio web, conforme a la Ley N.º 29733.">
+<meta name="theme-color" content="#060708">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@300..700&family=Geist+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<header class="nav is-stuck">
+  <div class="nav__in">
+    <a class="logo" href="./"><span class="logo__dot" aria-hidden="true"></span><span class="logo__txt">estatus<em>digital</em></span></a>
+    <a class="btn btn--ghost btn--sm" href="./">Volver al inicio</a>
+  </div>
+</header>
+
+<main class="legal">
+  <p class="eyebrow">Legal</p>
+  <h1>Política de Privacidad</h1>
+  <p class="fine">Borrador pendiente de revisión legal. Última actualización: noviembre de 2026.</p>
+
+  <h2>1. Quién es responsable de tus datos</h2>
+  <p>Estatus Digital, con RUC <span data-cfg="ruc">por definir</span> y domicilio en Lima, Perú, es titular del banco de datos personales en el que se almacena la información que nos entregas a través de este sitio web.</p>
+
+  <h2>2. Qué datos recopilamos</h2>
+  <ul>
+    <li>Datos de contacto: nombre, empresa, correo electrónico y número de WhatsApp.</li>
+    <li>Respuestas del diagnóstico digital express: rubro, si tienes web y su dirección, canales por los que consigues clientes y objetivo.</li>
+    <li>La captura de pantalla que subas de forma opcional en el diagnóstico.</li>
+    <li>Los mensajes que escribas al asistente de chat.</li>
+  </ul>
+
+  <h2>3. Para qué los usamos</h2>
+  <ul>
+    <li>Generar y mostrarte tu diagnóstico digital.</li>
+    <li>Contactarte por WhatsApp o correo para responder tu consulta y enviarte una propuesta o cotización.</li>
+    <li>Mejorar nuestros servicios y este sitio web.</li>
+  </ul>
+  <p>No vendemos tus datos ni los usamos para fines distintos a los indicados.</p>
+
+  <h2>4. Uso de inteligencia artificial</h2>
+  <p>El asistente de chat y el diagnóstico digital express funcionan con un servicio de inteligencia artificial de Google (Gemini). Para generar las respuestas, tus mensajes, las respuestas del formulario y la captura que subas se envían a ese servicio, lo que puede implicar su tratamiento fuera del Perú. Tus datos de contacto (nombre, correo y WhatsApp) no se envían al servicio de inteligencia artificial. Los resultados son estimaciones orientativas y pueden contener errores.</p>
+
+  <h2>5. Con quién los compartimos</h2>
+  <p>Solo con los proveedores que nos permiten operar este sitio (alojamiento web, almacenamiento de contactos e inteligencia artificial), que los tratan por encargo nuestro, y con las autoridades cuando la ley lo exija.</p>
+
+  <h2>6. Cuánto tiempo los conservamos</h2>
+  <p>Mientras dure la relación comercial contigo o hasta que nos pidas eliminarlos, salvo que una norma nos obligue a conservarlos por más tiempo.</p>
+
+  <h2>7. Tus derechos</h2>
+  <p>Conforme a la Ley N.º 29733, Ley de Protección de Datos Personales, y su reglamento, puedes ejercer tus derechos de acceso, rectificación, cancelación y oposición, así como revocar tu consentimiento, escribiendo a <a href="#" data-mail><span data-cfg="email">nuestro correo de contacto</span></a>. Si consideras que tu solicitud no fue atendida, puedes acudir a la Autoridad Nacional de Protección de Datos Personales.</p>
+
+  <h2>8. Herramientas de medición</h2>
+  <p>Este sitio puede usar herramientas de analítica y publicidad (como Google Analytics y Meta Pixel) para medir visitas y conversiones. Puedes limitar su uso desde la configuración de tu navegador.</p>
+
+  <h2>9. Cambios en esta política</h2>
+  <p>Podemos actualizar esta política. Publicaremos la versión vigente en esta misma página con su fecha de actualización.</p>
+</main>
+
+<script src="assets/js/config.js"></script>
+<script>
+  document.querySelectorAll("[data-cfg]").forEach(function (el) {
+    var v = (window.ED_CONFIG || {})[el.dataset.cfg];
+    if (v && v !== "Por definir") el.textContent = v;
+  });
+  document.querySelectorAll("[data-mail]").forEach(function (a) {
+    if ((window.ED_CONFIG || {}).email) a.href = "mailto:" + window.ED_CONFIG.email;
+  });
+</script>
+</body>
+</html>
